@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.caffebar-kobra.vercel.app
+
+# Sitemaps
+Sitemap: https://www.caffebar-kobra.vercel.app/sitemap.xml

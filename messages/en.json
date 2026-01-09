@@ -1,0 +1,143 @@
+{
+  "HeroSection": {
+    "welcome": "Welcome to Caffe Bar Kobra — view the price list below",
+    "contact": "Contact"
+  },
+  "Menu": {
+    "sections": {
+      "alcohol": "Spirits",
+      "beer": "Beer",
+      "wine": "Wine",
+      "soft": "Soft drinks",
+      "hot": "Hot drinks"
+    },
+    "items": {
+      "pelinkovac": "Pelinkovac",
+      "konjak": "Cognac",
+      "vodka": "Vodka",
+      "vinjak": "Brandy",
+      "travarica": "Herbal brandy",
+      "komovica": "Grape brandy",
+      "gin": "Gin",
+      "rum": "Rum",
+      "stock": "Stock",
+      "ballantines": "Ballantine's",
+      "jack_daniels": "Jack Daniel's",
+      "jagermeister": "Jägermeister",
+      "viljamovka": "Pear brandy",
+      "sljivovica": "Plum brandy",
+      "dunja": "Quince brandy",
+      "kovilj_sljiva": "Kovilj plum brandy",
+
+      "beer_draft": "Beer",
+      "heineken": "Heineken",
+      "jelen": "Jelen",
+
+      "wine_white": "White wine",
+      "wine_red": "Red wine",
+
+      "coca_cola": "Coca-Cola",
+      "sprite": "Sprite",
+      "cockta": "Cockta",
+      "natural_juices": "Natural juices",
+      "tonic": "Tonic",
+      "schweppes": "Schweppes",
+      "orangina": "Orangina",
+      "red_bull": "Red Bull",
+      "cedevita": "Cedevita",
+      "fanta": "Fanta",
+      "mineral_water_small": "Mineral water",
+      "mineral_water_big": "Mineral water",
+      "flavoured_water": "Flavoured water",
+      "iced_tea": "Iced tea",
+      "lemonade": "Lemonade",
+      "hidra": "Hidra",
+
+      "coffee": "Coffee",
+      "coffee_whipped_cream": "Coffee with whipped cream",
+      "coffee_cream": "Coffee with cream",
+      "cappuccino": "Cappuccino",
+      "nescafe": "Nescafe",
+      "tea": "Tea",
+      "cocoa": "Cocoa"
+    }
+  },
+  "Footer": {
+    "links": {
+      "terms": "Terms of use",
+      "complaint": "Complaint",
+      "contact": "Contact"
+    },
+    "legal": {
+      "vat": "VAT is not included in the price (Article 90 of the VAT Act).",
+      "complaintsBook": "The complaints book is available at the bar or by visiting",
+      "noAlcoholUnder18": "Serving alcoholic drinks to persons under 18 is prohibited.",
+      "validFrom": "Price list valid from {date}."
+    }
+  },
+  "Terms": {
+    "title": "Terms of use",
+    "s1": {
+      "title": "1. General information",
+      "p1": "This website is an informational digital price list for the hospitality venue {brand}, available at {domain}.",
+      "p2": "By using this website, you confirm that you have read and accept these Terms of Use in full."
+    },
+    "s2": {
+      "title": "2. Purpose of the website",
+      "p1": "The content on this website is provided for informational purposes only and is intended to present the drink offer and prices at {brand}.",
+      "p2": "Displayed prices apply to in-venue service and are valid on the publication date, and may change without prior notice."
+    },
+    "s3": {
+      "title": "3. Accuracy and availability of information",
+      "p1": "The venue owner aims to keep all information accurate and up to date, but does not accept liability for unintentional errors in prices, descriptions, or product availability.",
+      "p2": "In case of any discrepancy between the digital price list and the price list displayed inside the venue, the in-venue price list shall prevail."
+    },
+    "s4": {
+      "title": "4. Alcohol service",
+      "p1": "In accordance with Croatian regulations, the sale and serving of alcoholic beverages to persons under 18 years of age is prohibited.",
+      "p2": "Venue staff may request an ID document to verify a guest’s age."
+    },
+    "s5": {
+      "title": "5. Complaints",
+      "p1": "Guests have the right to submit a written complaint in accordance with the Croatian Consumer Protection Act.",
+      "p2": "A complaints book is available at the venue, and complaints may also be submitted via the email address listed on the Complaint page.",
+      "p3": "Written complaints will be answered within the legally prescribed timeframe."
+    },
+    "s6": {
+      "title": "6. Copyright",
+      "p1": "All content published on this website, including text, visual elements and design, is protected by copyright and must not be used, reproduced, or distributed without prior consent of the owner."
+    },
+    "s7": {
+      "title": "7. Changes to these terms",
+      "p1": "The owner reserves the right to amend these Terms of Use at any time, without prior notice."
+    },
+    "s8": {
+      "title": "8. Applicable law",
+      "p1": "These Terms of Use are governed by the laws of the Republic of Croatia."
+    }
+  },
+  "Complaint": {
+    "title": "Complaint",
+    "intro": "If you have a complaint regarding our service, you can contact us via email.",
+    "emailText": "Please send your complaint to the following email address:",
+    "subject": "Complaint – Caffe Bar Kobra"
+  },
+  "Print": {
+    "button": "Print",
+    "hint": "Use the Print button or your browser’s print option."
+  },
+  "PWA": {
+    "title": "Install menu",
+    "desc": "Add Caffe Bar Kobra to your home screen for quick access.",
+    "install": "Install",
+    "dismiss": "Later",
+    "iosHint": "On iPhone/iPad: Share → Add to Home Screen."
+  },
+  "Contact": {
+    "title": "Contact",
+    "intro": "For any information, you can contact us by email or visit us at our location.",
+    "addressLabel": "Address",
+    "emailLabel": "Email",
+    "emailHint": "Tapping the email opens your mail app."
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "HeroSection": {
+    "welcome": "Dobrodošli u Caffe Bar Kobra - u nastavku pogledajte cjenik",
+    "contact": "Kontakt"
+  },
+  "Menu": {
+    "sections": {
+      "alcohol": "Alkoholna pića",
+      "beer": "Pivo",
+      "wine": "Vino",
+      "soft": "Bezalkoholna pića",
+      "hot": "Topli napitci"
+    },
+    "items": {
+      "pelinkovac": "Pelinkovac",
+      "konjak": "Konjak",
+      "vodka": "Vodka",
+      "vinjak": "Vinjak",
+      "travarica": "Travarica",
+      "komovica": "Komovica",
+      "gin": "Gin",
+      "rum": "Rum",
+      "stock": "Stock",
+      "ballantines": "Ballantines",
+      "jack_daniels": "Jack Daniel's",
+      "jagermeister": "Jägermeister",
+      "viljamovka": "Viljamovka",
+      "sljivovica": "Šljivovica",
+      "dunja": "Dunja",
+      "kovilj_sljiva": "Kovilj šljiva",
+
+      "beer_draft": "Pivo",
+      "heineken": "Heineken",
+      "jelen": "Jelen",
+
+      "wine_white": "Bijelo",
+      "wine_red": "Crno",
+
+      "coca_cola": "Coca-Cola",
+      "sprite": "Sprite",
+      "cockta": "Cockta",
+      "natural_juices": "Prirodni sokovi",
+      "tonic": "Tonic",
+      "schweppes": "Schweppes",
+      "orangina": "Orangina",
+      "red_bull": "Red Bull",
+      "cedevita": "Cedevita",
+      "fanta": "Fanta",
+      "mineral_water_small": "Mineralna voda",
+      "mineral_water_big": "Mineralna voda",
+      "flavoured_water": "Voda s okusom",
+      "iced_tea": "Ledeni čaj",
+      "lemonade": "Limunada",
+      "hidra": "Hidra",
+
+      "coffee": "Kava",
+      "coffee_whipped_cream": "Kava sa šlagom",
+      "coffee_cream": "Kava sa vrhnjem",
+      "cappuccino": "Cappucino",
+      "nescafe": "Nescafe",
+      "tea": "Čaj",
+      "cocoa": "Kakao"
+    }
+  },
+  "Footer": {
+    "links": {
+      "terms": "Uvjeti korištenja",
+      "complaint": "Prigovor",
+      "contact": "Kontakt"
+    },
+    "legal": {
+      "vat": "PDV nije obračunat u cijenu, čl. 90 zakona o PDV-u.",
+      "complaintsBook": "Knjiga žalbe se nalazi u prostoru točionika ili klikom na stranicu",
+      "noAlcoholUnder18": "Mlađima od 18 godina zabranjeno je točenje alkoholnih pića.",
+      "validFrom": "Cjenik se primjenjuje od {date}."
+    }
+  },
+  "Terms": {
+    "title": "Uvjeti korištenja",
+    "s1": {
+      "title": "1. Opće informacije",
+      "p1": "Ova web stranica služi kao informativni digitalni cjenik ugostiteljskog objekta {brand}, dostupnog na adresi {domain}.",
+      "p2": "Korištenjem ove web stranice potvrđujete da ste upoznati s ovim Uvjetima korištenja te da ih prihvaćate u cijelosti."
+    },
+    "s2": {
+      "title": "2. Namjena web stranice",
+      "p1": "Sadržaj ove web stranice ima isključivo informativnu svrhu i namijenjen je pružanju pregleda ponude pića i cijena u objektu {brand}.",
+      "p2": "Prikazane cijene odnose se na prodaju u ugostiteljskom objektu i važeće su na dan objave, uz mogućnost izmjene bez prethodne najave."
+    },
+    "s3": {
+      "title": "3. Točnost i dostupnost informacija",
+      "p1": "Vlasnik nastoji osigurati da su svi podaci prikazani na web stranici točni i ažurni, no ne preuzima odgovornost za moguće nenamjerne pogreške u prikazu cijena, opisa ili dostupnosti pojedinih proizvoda.",
+      "p2": "U slučaju neslaganja između digitalnog cjenika i cjenika istaknutog u prostoru objekta, mjerodavan je cjenik istaknut u objektu."
+    },
+    "s4": {
+      "title": "4. Konzumacija alkoholnih pića",
+      "p1": "Sukladno važećim propisima Republike Hrvatske, zabranjena je prodaja i posluživanje alkoholnih pića osobama mlađim od 18 godina.",
+      "p2": "Osoblje objekta zadržava pravo zatražiti osobni dokument radi provjere dobi gosta."
+    },
+    "s5": {
+      "title": "5. Prigovori i reklamacije",
+      "p1": "Gost ima pravo podnijeti pisani prigovor sukladno Zakonu o zaštiti potrošača Republike Hrvatske.",
+      "p2": "Knjiga žalbe dostupna je u prostoru ugostiteljskog objekta, a prigovor je moguće podnijeti i putem e-mail adrese navedene na stranici Prigovor.",
+      "p3": "Na pisani prigovor odgovorit će se u zakonskom roku."
+    },
+    "s6": {
+      "title": "6. Autorska prava",
+      "p1": "Svi sadržaji objavljeni na ovoj web stranici, uključujući tekstove, grafičke elemente i dizajn, zaštićeni su autorskim pravima te se ne smiju koristiti, reproducirati ili distribuirati bez prethodne suglasnosti vlasnika."
+    },
+    "s7": {
+      "title": "7. Izmjene uvjeta korištenja",
+      "p1": "Vlasnik zadržava pravo izmjene ovih Uvjeta korištenja u bilo kojem trenutku, bez obveze prethodne obavijesti korisnicima."
+    },
+    "s8": {
+      "title": "8. Primjena prava",
+      "p1": "Na ove Uvjete korištenja primjenjuje se pravo Republike Hrvatske."
+    }
+  },
+  "Complaint": {
+    "title": "Prigovor",
+    "intro": "Ako imate prigovor na uslugu, možete nam se obratiti putem e-maila.",
+    "emailText": "Svoj prigovor možete poslati na sljedeću e-mail adresu:",
+    "subject": "Prigovor – Caffe Bar Kobra"
+  },
+  "Print": {
+    "button": "Ispis",
+    "hint": "Za ispis koristite tipku Ispis ili opciju Print u pregledniku."
+  },
+  "PWA": {
+    "title": "Instaliraj cjenik",
+    "desc": "Dodaj Caffe Bar Kobra na početni zaslon za brži pristup.",
+    "install": "Instaliraj",
+    "dismiss": "Kasnije",
+    "iosHint": "Na iPhone/iPad: Share → Add to Home Screen."
+  },
+  "Contact": {
+    "title": "Kontakt",
+    "intro": "Za sve informacije možete nas kontaktirati putem e-maila ili nas posjetiti na lokaciji.",
+    "addressLabel": "Adresa",
+    "emailLabel": "E-mail",
+    "emailHint": "Klikom na e-mail otvara se aplikacija za slanje pošte."
+  }
+}
