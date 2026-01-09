@@ -92,7 +92,7 @@ export default function PwaInstallBanner() {
         </button>
       </div>
 
-      <div className="mt-3 flex items-center justify-end gap-2">
+      <div className="mt-3 flex items-center justify-center gap-2">
         <button
           onClick={dismiss}
           className="rounded-full border border-white/10 bg-black/20 px-3 py-2 text-xs text-emerald-50/80 transition hover:bg-white/5"

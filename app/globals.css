@@ -76,17 +76,29 @@ body {
   text-rendering: optimizeLegibility;
   overflow-x: hidden;
   position: relative;
+
+  /* ✅ stabilan stacking context (posebno iOS Safari) */
+  isolation: isolate;
+}
+
+/* ✅ Sve što je direktno u body ide iznad pozadine */
+body > * {
+  position: relative;
+  z-index: 1;
 }
 
 /* =========================================================
    FILM OVERLAY – stabilan kontrast za cjenik
+   (Safari fix: bez z-index:-1)
    ========================================================= */
 body::before {
   content: "";
   position: fixed;
   inset: 0;
   pointer-events: none;
-  z-index: -1;
+
+  /* ✅ umesto -1 */
+  z-index: 0;
 
   background:
     linear-gradient(
@@ -103,13 +115,17 @@ body::before {
 
 /* =========================================================
    GRAIN / NOISE – premium izgled + manje bandinga
+   (Safari fix: bez z-index:-1)
    ========================================================= */
 body::after {
   content: "";
   position: fixed;
   inset: 0;
   pointer-events: none;
-  z-index: -1;
+
+  /* ✅ umesto -1 */
+  z-index: 0;
+
   opacity: 0.08;
 
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.8' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='220' height='220' filter='url(%23n)' opacity='.35'/%3E%3C/svg%3E");
@@ -141,6 +157,9 @@ body::after {
   }
 }
 
+/* =========================================================
+   PRINT
+   ========================================================= */
 @media print {
   /* Ukini animacije i background */
   * {
