@@ -3,8 +3,8 @@ import { getTranslations } from "next-intl/server";
 export default async function ContactPage() {
   const t = await getTranslations("Contact");
 
-  const address = "Vukovar – Tržni centar, lokal 15";
-  const email = "info@caffebar-kobra.hr"; // ⬅️ promijeni na pravi
+  const address = "Vukovar – J.J. Strossmayera, tržni centar, lokal 15";
+  const email = "gomitrovi@gmail.com";
 
   return (
     <main className="mx-auto max-w-3xl px-4 py-10">

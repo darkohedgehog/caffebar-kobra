@@ -14,6 +14,7 @@ const geistMono = Geist_Mono({ variable: "--font-geist-mono", subsets: ["latin"]
 export const metadata: Metadata = {
   title: "Caffe Bar Kobra",
   description: "Caffe bar Kobra smješten u samom centru grada Vukovara",
+  manifest: "/manifest.webmanifest"
 };
 
 const SUPPORTED_LOCALES = ["hr", "en"] as const;

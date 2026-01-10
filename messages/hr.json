@@ -127,12 +127,13 @@
     "hint": "Za ispis koristite tipku Ispis ili opciju Print u pregledniku."
   },
   "PWA": {
-    "title": "Instaliraj cjenik",
-    "desc": "Dodaj Caffe Bar Kobra na početni zaslon za brži pristup.",
-    "install": "Instaliraj",
-    "dismiss": "Kasnije",
-    "iosHint": "Na iPhone/iPad: Share → Add to Home Screen."
-  },
+  "title": "Instaliraj cjenik",
+  "desc": "Dodaj Caffe Bar Kobra na početni zaslon za brži pristup.",
+  "install": "Instaliraj",
+  "dismiss": "Kasnije",
+  "iosHint": "Na iPhone/iPad: Share → Add to Home Screen.",
+  "manualHint": "Ako ne vidiš instalaciju, otvori izbornik preglednika i odaberi 'Add to Home screen'."
+},
   "Contact": {
     "title": "Kontakt",
     "intro": "Za sve informacije možete nas kontaktirati putem e-maila ili nas posjetiti na lokaciji.",

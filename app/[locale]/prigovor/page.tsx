@@ -3,7 +3,7 @@ import { getTranslations } from "next-intl/server";
 export default async function ComplaintPage() {
   const t = await getTranslations("Complaint");
 
-  const email = "prigovor@caffebarkobra.hr";
+  const email = "gomitrovi@gmail.com";
   const subject = encodeURIComponent(t("subject"));
 
   return (

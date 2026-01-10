@@ -172,7 +172,7 @@ body::after {
     color: #000 !important;
   }
 
-  /* Sakrij UI stvari koje ne treba štampati */
+  /* UI stvari koje ne treba štampati */
   header,
   footer,
   #pwa-install-banner,

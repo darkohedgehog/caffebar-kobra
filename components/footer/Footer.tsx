@@ -19,6 +19,7 @@ export default function Footer() {
               alt="Caffe Bar Kobra"
               width={120}
               height={40}
+              priority
               className="h-auto w-auto object-contain opacity-90 transition hover:opacity-100 hover:drop-shadow-[0_0_10px_rgba(34,197,94,0.35)]"
             />
           </Link>

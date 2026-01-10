@@ -127,12 +127,13 @@
     "hint": "Use the Print button or your browser’s print option."
   },
   "PWA": {
-    "title": "Install menu",
-    "desc": "Add Caffe Bar Kobra to your home screen for quick access.",
-    "install": "Install",
-    "dismiss": "Later",
-    "iosHint": "On iPhone/iPad: Share → Add to Home Screen."
-  },
+  "title": "Install menu",
+  "desc": "Add Caffe Bar Kobra to your home screen for quick access.",
+  "install": "Install",
+  "dismiss": "Later",
+  "iosHint": "On iPhone/iPad: Share → Add to Home Screen.",
+  "manualHint": "If you don’t see install, open the browser menu and choose 'Add to Home screen'."
+},
   "Contact": {
     "title": "Contact",
     "intro": "For any information, you can contact us by email or visit us at our location.",
