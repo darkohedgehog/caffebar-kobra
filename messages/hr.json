@@ -1,7 +1,24 @@
 {
+  "Prices": {
+    "regularShort": "RC",
+    "anchorShort": "SC",
+    "regular": "Redovna cijena",
+    "anchor": "Sidrena cijena",
+    "note": "Napomena: RC = redovna cijena; SC = sidrena cijena. Sve cijene izražene su u eurima. Sidrena cijena jednaka je redovnoj cijeni."
+  },
+  "PriceLists": {
+    "title": "Cjenici",
+    "intro": "Pregled cjenika pića i preuzimanje u CSV formatu.",
+    "download": "Preuzmi CSV",
+    "back": "Natrag na meni",
+    "category": "Kategorija",
+    "name": "Naziv pića",
+    "measure": "Količina"
+  },
   "HeroSection": {
     "welcome": "Dobrodošli u Caffe Bar Kobra - u nastavku pogledajte cjenik",
-    "contact": "Kontakt"
+    "contact": "Kontakt",
+    "priceLists": "Cjenici"
   },
   "Menu": {
     "sections": {
@@ -65,6 +82,7 @@
   "Footer": {
     "links": {
       "terms": "Uvjeti korištenja",
+      "priceLists": "Cjenici",
       "complaint": "Prigovor",
       "contact": "Kontakt"
     },

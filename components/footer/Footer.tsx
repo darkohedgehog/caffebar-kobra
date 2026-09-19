@@ -25,6 +25,9 @@ export default function Footer() {
           </Link>
 
           <nav className="flex flex-wrap items-center justify-center gap-x-6 gap-y-2 text-sm text-emerald-50/80">
+            <Link href="/cjenici" className="transition hover:text-emerald-300">
+              {t("links.priceLists")}
+            </Link>
             <Link href="/uvjeti-koristenja" className="transition hover:text-emerald-300">
               {t("links.terms")}
             </Link>

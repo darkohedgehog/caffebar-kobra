@@ -74,6 +74,12 @@ export default function HeroSection() {
             >
               {t("contact")}
             </Link>
+            <Link
+              href="/cjenici"
+              className="no-print rounded-full border border-white/12 bg-black/25 px-4 py-2 text-sm text-emerald-50/90 transition hover:border-emerald-400/30 hover:bg-emerald-500/10"
+            >
+              {t("priceLists")}
+            </Link>
             <PrintButton />
           </div>
         </div>

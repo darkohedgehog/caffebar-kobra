@@ -172,6 +172,16 @@ body::after {
     color: #000 !important;
   }
 
+  /* Keep the menu and both price columns readable in PDF / print. */
+  main,
+  main * {
+    color: #000 !important;
+  }
+
+  tr {
+    break-inside: avoid;
+  }
+
   /* UI stvari koje ne treba štampati */
   header,
   footer,

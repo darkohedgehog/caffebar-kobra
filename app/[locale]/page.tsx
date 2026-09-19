@@ -9,6 +9,7 @@ import HeroSection from "@/components/mainpage/HeroSection";
 
 export default async function HomePage() {
   const t = await getTranslations("Menu");
+  const prices = await getTranslations("Prices");
 
   const sections = MENU.map((s) => ({
     id: s.id,
@@ -27,6 +28,8 @@ export default async function HomePage() {
           <MenuSection key={section.id} section={section} />
         ))}
       </div>
+
+      <p className="mt-6 text-sm text-emerald-50/70">{prices("note")}</p>
 
       <BackToTopButton />
     </main>

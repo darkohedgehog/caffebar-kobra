@@ -18,7 +18,7 @@ export function formatMeasure(
 ): string | null {
   if (measure === undefined || measure === null) return null;
 
-  const { defaultUnit = "l", maxFractionDigits = 2 } = opts;
+  const { defaultUnit = "l", maxFractionDigits = 3 } = opts;
 
   // Ako je već string (npr "0,33 l" ili "šalica"), samo vrati trimmed
   if (typeof measure === "string") {

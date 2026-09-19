@@ -33,6 +33,7 @@ module.exports = {
       '/uvjeti-koristenja',
       '/prigovor',
       '/contact',
+      '/cjenici',
     ];
 
     const locales = ['hr', 'en'];

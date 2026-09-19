@@ -8,6 +8,7 @@ import { MENU_SECTION_ICONS } from "./menuSectionIcons";
 export default function MenuSection({ section }: { section: MenuSectionType }) {
   const t = useTranslations("Menu");
   const locale = useLocale();
+  const prices = useTranslations("Prices");
 
   const formatEur = (value: number) =>
     new Intl.NumberFormat(locale === "en" ? "en-GB" : "hr-HR", {
@@ -32,7 +33,12 @@ export default function MenuSection({ section }: { section: MenuSectionType }) {
       </div>
 
       {/* Card */}
-      <div className="rounded-2xl border border-white/10 bg-black/25 backdrop-blur-md shadow-2xl overflow-hidden">
+      <div className="print-card rounded-2xl border border-white/10 bg-black/25 backdrop-blur-md shadow-2xl overflow-hidden">
+        <div className="grid grid-cols-[minmax(0,1fr)_4.5rem_4.5rem] gap-2 border-b border-white/10 px-4 py-2 text-right text-xs text-emerald-50/60 sm:gap-4">
+          <span aria-hidden="true" />
+          <abbr title={prices("regular")} className="no-underline">{prices("regularShort")}</abbr>
+          <abbr title={prices("anchor")} className="no-underline">{prices("anchorShort")}</abbr>
+        </div>
         <div className="divide-y divide-white/10">
           {section.items.map((item, idx) => {
             const measure = formatMeasure(item.measure);
@@ -40,11 +46,11 @@ export default function MenuSection({ section }: { section: MenuSectionType }) {
             return (
               <div
                 key={`${section.id}-${idx}-${item.id}`}
-                className="flex items-center justify-between gap-4 px-4 py-3"
+                className="grid grid-cols-[minmax(0,1fr)_4.5rem_4.5rem] items-center gap-2 px-4 py-3 sm:gap-4"
               >
                 {/* Name + measure */}
                 <div className="min-w-0">
-                  <div className="truncate font-medium text-emerald-50/90">
+                  <div className="wrap-break-word font-medium text-emerald-50/90">
                     {t(`items.${item.id}`)}
                   </div>
 
@@ -53,8 +59,10 @@ export default function MenuSection({ section }: { section: MenuSectionType }) {
                   )}
                 </div>
 
-                {/* Price */}
-                <div className="shrink-0 font-semibold tabular-nums text-emerald-50/90">
+                <div aria-label={prices("regular")} className="text-right text-sm font-semibold tabular-nums text-emerald-50/90 sm:text-base">
+                  {formatEur(item.price)}
+                </div>
+                <div aria-label={prices("anchor")} className="text-right text-sm font-semibold tabular-nums text-emerald-50/90 sm:text-base">
                   {formatEur(item.price)}
                 </div>
               </div>
